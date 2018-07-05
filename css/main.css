@@ -1,0 +1,33 @@
+.bg-img{
+	background-image: url(../images/business-charts-commerce-265087.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+#col-one{
+	border: solid 1px blue;
+}
+#col-one #reservation{
+	float: left;
+}
+#col-one #timing{
+	float: left;
+}
+
+
+#col-two{
+	border: solid 1px red;
+}
+#col-two #media-icons{
+	float: right;
+}
+
+.row-one:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+

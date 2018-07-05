@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>media tags</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+body{
+	margin: 0;
+}
+.container{
+	padding: 10px;
+}
+#video{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: solid 1px red;
+}
+	video{
+		display: block;
+	}
+</style>
+<body>
+	<div class="container">
+
+	<h1>Media tags</h1>
+
+	<h3>&lt;video&gt;</h3>
+	<p>It embeds a media player which supports video playback into the document</p>
+	<section id="video">
+		<video 
+		controls
+		buffered 
+		src="videos/A Beginner's Web Design Tutorial for 2018 - Part 1 of 2.mp4"
+		poster="images/coursetro.png" width="1280" height="400">
+		</video>
+	</section><!-- /#video -->
+
+	<h3>&lt;audio&gt;</h3>
+	<p>It embeds sound content in the documents</p>
+	<section id="audio">
+		<audio controls loop src="audio/lion_roar.mp3"></audio>
+	</section><!-- /#audio -->
+
+	<h3>&lt;embed&gt;</h3>
+	<p>It embeds external content at the specified point in the document</p>
+	<section id="embed">
+		<embed src="videos/A Beginner's Web Design Tutorial for 2018 - Part 1 of 2.mp4" type="video/mp4" controls />
+	</section><!-- /#embed -->
+
+	<h3>&lt;iframe&gt;</h3>
+	<p></p>
+	<section id="iframe">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/8mG8CKDstZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</section><!-- /#iframe -->
+
+
+
+
+	</div><!-- /.container -->
+</body>
+</html>
